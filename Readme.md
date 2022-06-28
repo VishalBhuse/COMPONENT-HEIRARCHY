@@ -1,6 +1,12 @@
-importing the square component and adding nine instances of it to the board(using mapping)
+ Tic Tac Toe
 
-1. In the Game component create states to set an empty board and specify the next player.
- Lastly, we add const winner, which tells us whether the latest move was a winning one:
-2. In the Board component using props create a square box and map in the Square component
-3. In the square component add a button onclick all square position 
+In this project we have to create three component 
+ <Game />
+<Board />
+<Square />
+
+In <Game /> component is the parent component . In this component we are managing all our states , which tells us whether the latest move was a winning one. In this we also maintain move history.
+ In the <Board /> component using props create a square box and map 9 div wrapped in the Square component.
+ In the <square /> component add a button onclick all 9 div  positions and using props we are able to update value .
+When all boxes  x and o check horizontal,vertical and diagonal are using the helper.js file in this file we are checking all positions which are the winner.
+We are mainly <Game /> components that maintain our all states and they choose who is the winner.   
