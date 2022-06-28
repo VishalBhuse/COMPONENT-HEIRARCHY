@@ -10,3 +10,7 @@ In <Game /> component is the parent component . In this component we are managin
  In the <square /> component add a button onclick all 9 div  positions and using props we are able to update value .
 When all boxes  x and o check horizontal,vertical and diagonal are using the helper.js file in this file we are checking all positions which are the winner.
 We are mainly <Game /> components that maintain our all states and they choose who is the winner.   
+
+
+### `hierarchy diagram`
+![image](https://user-images.githubusercontent.com/101569259/176237732-6f0cac3a-3280-4eac-a571-14eb51658d3e.png)
